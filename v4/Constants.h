@@ -4,6 +4,9 @@
 class Constants {
     public:
 
+    Constants();
+    ~Constants();
+
     const double get_massPion() const;
     const double get_massProton() const;
     const double get_massKaon() const;
