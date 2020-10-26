@@ -50,7 +50,7 @@ Create a Utilities class, and move inside this new class the two functions
 computing the energy or the mass from the 3 momentum components and the
 mass or the energy, respectively. Declare those functions as "static".
 
-***
+*** FATTO
 Create a Constants class and move inside this new class the masses of
 pion, proton, K0 and Lambda0. Initialize those values properly.
 
