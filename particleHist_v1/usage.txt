@@ -1,0 +1,9 @@
+usage:
+
+./hist1 input ../particle_events.txt
+
+./hist1 sim 1000
+
+root hist.root
+K0->Draw()
+L0->Draw()

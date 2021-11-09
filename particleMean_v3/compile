@@ -1,0 +1,5 @@
+#!/bin/sh
+rm mean3
+g++ -Wall -o mean3 main.cc MassMean.cc Constants.cc Utilities.cc read.cc \
+    dump.cc mass.cc Event.cc
+

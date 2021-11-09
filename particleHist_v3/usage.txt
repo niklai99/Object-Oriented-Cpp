@@ -1,0 +1,8 @@
+usage examples:
+
+./hist3 sim 100 dump
+./hist3 input ../particle_events.txt plot
+
+root hist.root
+K0->Draw()
+L0->Draw()

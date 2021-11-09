@@ -1,0 +1,3 @@
+#!/bin/sh
+rm dump1
+g++ -Wall -o dump1 main.cc dump.cc read.cc
