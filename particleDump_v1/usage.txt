@@ -1,1 +1,0 @@
-./dump1 ../particle_events.txt

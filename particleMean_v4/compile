@@ -1,5 +1,0 @@
-#!/bin/sh
-rm mean4
-g++ -Wall -o mean4 AnalysisSteering.cc Constants.cc Event.cc EventDump.cc\
-    EventReadFromFile.cc EventSim.cc EventSource.cc MassMean.cc ParticleMass.cc \
-    Utilities.cc mass.cc main.cc

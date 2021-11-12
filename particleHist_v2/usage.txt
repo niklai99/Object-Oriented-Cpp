@@ -1,9 +1,0 @@
-usage:
-
-./hist2 input ../particle_events.txt
-
-./hist2 sim numberOfEvents [seed seedNumber]
-
-root hist.root
-K0->Draw()
-L0->Draw()

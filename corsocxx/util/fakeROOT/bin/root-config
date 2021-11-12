@@ -1,7 +1,0 @@
-#!/bin/sh
-
-cd `dirname $0`/..
-export DIRNAME=`/bin/pwd`
-
-${DIRNAME}/bin/createCommands ${DIRNAME} $*
-

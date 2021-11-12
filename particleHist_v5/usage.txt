@@ -1,2 +1,0 @@
-./hist5 sim 1000 plot massRanges massRanges
-./hist5 input ../particle_events.txt dump time timeRanges particleFitters

@@ -1,7 +1,0 @@
-export LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH
-
-./runDump input ../particle_events.txt dump
-./runPlot sim 2000 plot massRanges massRanges
-./runTime sim 2000 time timeRanges timeRanges
-
-./runAll sim 1000 dump plot massRanges massRanges time timeRanges particleFitters

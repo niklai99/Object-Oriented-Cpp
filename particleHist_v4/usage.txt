@@ -1,5 +1,0 @@
-./hist4 sim 1000 dump
-./hist4 input ../particle_events.txt plot
-./hist4 input ../particle_events.txt time
-./hist4 input ../particle_events.txt plot time
-

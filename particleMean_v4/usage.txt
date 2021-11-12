@@ -1,5 +1,0 @@
-usage:
-
-./mean4 input ../particle_events.txt
-
-./mean4 sim 1000

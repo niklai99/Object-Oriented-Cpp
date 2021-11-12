@@ -1,3 +1,0 @@
-#!/bin/sh
-rm dump2
-g++ -Wall -o dump2 main.cc read.cc dump.cc clear.cc
