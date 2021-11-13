@@ -1,0 +1,7 @@
+#!/bin/sh
+rm hist4 hist.root
+g++ -Wall -I ../corsocxx `root-config --cflags --libs`  -o hist4 \
+    AnalysisSteering.cc Constants.cc Event.cc EventDump.cc \
+    EventReadFromFile.cc EventSim.cc EventSource.cc MassMean.cc \
+    ParticleMass.cc Utilities.cc main.cc AnalysisInfo.cc\
+    SourceFactory.cc AnalysisFactory.cc ParticleReco.cc

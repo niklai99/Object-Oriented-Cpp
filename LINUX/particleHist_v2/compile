@@ -1,0 +1,7 @@
+#!/bin/sh
+rm hist2 hist.root
+
+g++ -Wall `root-config --cflags --libs` -o hist2 AnalysisSteering.cc \
+    Constants.cc Event.cc EventDump.cc EventReadFromFile.cc EventSim.cc \
+    EventSource.cc MassMean.cc ParticleMass.cc Utilities.cc mass.cc main.cc \
+    AnalysisInfo.cc SourceFactory.cc

@@ -1,0 +1,1 @@
+./mean1 ../particle_events.txt

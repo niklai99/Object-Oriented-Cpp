@@ -1,0 +1,7 @@
+#!/bin/sh
+rm hist5 hist.root
+g++ -g -Wall -I ../corsocxx  `root-config --cflags --libs`  -o hist5 \
+    AnalysisSteering.cc Constants.cc Event.cc EventDump.cc EventReadFromFile.cc\
+    EventSim.cc EventSource.cc MassMean.cc ParticleMass.cc Utilities.cc main.cc\
+    AnalysisInfo.cc SourceFactory.cc AnalysisFactory.cc ParticleReco.cc \
+    ProperTime.cc LifetimeFit.cc ParticleLifetime.cc QuadraticFitter.cc

@@ -1,0 +1,9 @@
+./hist5 sim 1000 plot massRanges massRanges
+root -l hist.root
+massK0->Draw()
+massL0->Draw()
+
+./hist5 input ../particle_events.txt dump time timeRanges particleFitters
+root -l hist.root
+timeK0->Draw()
+timeL0->Draw()

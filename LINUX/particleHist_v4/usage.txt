@@ -1,0 +1,21 @@
+./hist4 sim 1000 dump
+
+./hist4 input ../particle_events.txt plot
+root hist.root
+K0->Draw()
+L0->Draw()
+
+
+./hist4 input ../particle_events.txt time
+root hist.root
+timeK0->Draw()
+timeL0->Draw()
+
+./hist4 input ../particle_events.txt plot time
+root hist.root
+K0->Draw()
+L0->Draw()
+timeK0->Draw()
+timeL0->Draw()
+
+
