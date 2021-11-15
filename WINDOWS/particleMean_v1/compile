@@ -1,3 +1,0 @@
-#!/bin/sh
-rm mean1
-g++  -Wall -o mean1 main.cc dump.cc mass.cc clear.cc read.cc add.cc
